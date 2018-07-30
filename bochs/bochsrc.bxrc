@@ -1,5 +1,4 @@
-romimage: file=../../bios/BIOS-bochs-latest   
-vgaromimage: file=../../bios/VGABIOS-lgpl-latest 
-
+romimage: file=../../bios/BIOS-bochs-latest
+vgaromimage: file=../../bios/VGABIOS-lgpl-latest
 ata0-master: type=disk, path="../bochs/c.img", mode=flat
 boot: disk
